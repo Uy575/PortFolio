@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+.contactContentContainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6.25rem;
+
+    h1{
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+
+    }
+    button{
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 0.6rem ;
+        width: 13rem;
+        color: white;
+        margin-top: 1rem;
+        letter-spacing: 2px;
+        border-radius: 4px;
+
+        &:hover{
+            background:linear-gradient(to bottom right,#984D38 0%,#181E41 70%);
+        
+
+        }
+    }
+
+    
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 6.25rem 0rem 1rem 0rem;
+
+    .iconsDiv{
+    color: white;
+    display: flex;
+    gap: 50px;
+      }
+    .creditDiv{
+     color: white;
+     font-family: 'Cairo', sans-serif;
+
+  
+}
+.creditDiv span:first-child{
+    color: whitesmoke;
+    opacity: 0.8;
+}
+}

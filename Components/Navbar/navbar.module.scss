@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+
+
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+
+.navbarLogo{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    padding-top: 10px;
+
+    .logoFirstPart{
+        color:#181E41;
+       
+    }
+    .logoSecondPart{
+        
+        color: #984D38; 
+    }
+}
+
+.navbarList{
+
+
+    ul{
+        display: flex;
+        gap: 4rem;
+        padding-top: 20px;
+        li{
+                   list-style: none;
+                
+            a{
+                color: white;
+                font-family: 'Cairo', sans-serif;
+                cursor: pointer;
+                text-decoration: none;
+                
+                &:hover{
+                    color: white;
+                    text-decoration: underline;
+                }
+                &:active{
+                    color: gray;
+                }
+                
+            }
+            button{
+                background-color: transparent;
+                color: white;
+                border: 1px solid white;
+                padding: 0.5rem 0.5rem;
+                margin-top: -0.4rem;
+                
+                
+                &:hover{
+                
+                    opacity: 0.7;
+                    background:linear-gradient(to bottom right,#984D38 0%,#181E41 50%);
+                }
+            }
+        }
+    }
+
+}
+
+
+}

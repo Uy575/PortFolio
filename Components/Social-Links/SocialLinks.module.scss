@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap ');
+
+
+
+.socialLinksSection{
+    width: 100%;
+    background-color: black;
+
+    .socialLinksContainer{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span{
+            font-size: 2rem;
+            padding: 1rem;
+            color: white;
+            font-family: 'Stylish', sans-serif;
+            cursor: pointer;
+        
+        }
+       span:hover{
+        text-decoration: underline;
+        text-decoration-color: cadetblue;
+        transform: translateY(-0.1rem);
+       }
+    }
+}

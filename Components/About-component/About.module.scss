@@ -1,0 +1,56 @@
+.aboutServiceContactSection{
+
+    width: 100%;
+    background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+    // height: 100vh;
+
+     .mainContainer{
+        padding-bottom: 1rem ;
+    .contentContainer{
+        display: flex;
+        justify-content: space-between;
+        // padding: 8rem;
+        padding-top: 6.5rem;
+      
+    .aboutContent{
+        
+
+        h1{
+            color: white;
+            font-family: 'Playfair Display SC', serif;  
+        }
+        p{
+            color: whitesmoke;
+            width: 30rem;
+            padding-top: 2rem;
+            line-height: 180%;
+            font-size: 1rem;
+        }
+    }
+    .imageDiv{
+        background-color: #C4C4C4;
+        width: 331px;
+        height: 465px;
+        border-radius: 0 363px 287px 279px;
+        overflow: hidden;
+        position: relative;
+        margin-top: -3rem;
+     .profileImage{
+        position: absolute;
+        bottom: 0;
+   
+
+     }
+    }
+}
+      
+      .hr{
+
+        margin-top: 3rem;
+        border: 1px solid white;
+ 
+         
+        
+      }
+    }
+}
